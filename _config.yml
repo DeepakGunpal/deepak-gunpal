@@ -1,0 +1,21 @@
+# GitHub Pages configuration
+title: Deepak Gunpal - Portfolio
+description: Software Developer & Problem Solver
+baseurl: ""
+url: "https://deepak-gunpal.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
